@@ -1,0 +1,9 @@
+---
+all:
+  children:
+    web-servers:
+      hosts:
+        20.193.148.86
+      vars:
+        ansible_user: jayant
+        anisble_ssh_pass: '{{test_ssh_password}}'
