@@ -14,7 +14,7 @@ jobs:
     - name: Ansible Lint
       uses: ansible-community/ansible-lint-action@v6.0.2
       with: 
-        target: |
+        targets: |
           ansible/playbook.yml
           ansible/inventory.yml
 
