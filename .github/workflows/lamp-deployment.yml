@@ -41,7 +41,7 @@ jobs:
     - uses: dawidd6/action-ansible-playbook@v2
       with:
         playbook: playbook.yml
-        directory: anisble
+        directory: ansible
         options: |
           --inventory inventory-test.yml
           --extra-vars "test_ssh_password=${{Secrets.TEST_SSH_PASSWORD}}"    
