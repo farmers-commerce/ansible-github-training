@@ -38,7 +38,7 @@ jobs:
         path: anisble
 
 
-    - uses: dawidd6/action-anisble-playbook@v2
+    - uses: dawidd6/action-ansible-playbook@v2
       with:
         playbook: playbook.yml
         directory: anisble
