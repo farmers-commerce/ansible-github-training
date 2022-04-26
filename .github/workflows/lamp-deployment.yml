@@ -32,7 +32,7 @@ jobs:
     needs: linting
 
     steps:
-    - uses: actions/download-atrifact@v2
+    - uses: actions/download-artifact@v2
       with:
         name: playbooks
         path: anisble
