@@ -35,7 +35,7 @@ jobs:
     - uses: actions/download-artifact@v2
       with:
         name: playbooks
-        path: anisble
+        path: ansible
 
 
     - uses: dawidd6/action-ansible-playbook@v2
