@@ -44,4 +44,5 @@ jobs:
         directory: ansible
         options: |
           --inventory inventory-test.yml
-          --extra-vars "test_ssh_password=${{Secrets.TEST_SSH_PASSWORD}}"    
+          --extra-vars "test_ssh_password=${{ Secrets.TEST_SSH_PASSWORD }}"
+                                                     
